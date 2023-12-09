@@ -35,6 +35,25 @@ MarketConnect ถูกสร้างขึ้นเพื่อทำให้
 
 - **สร้างชุมชน:** สร้างพื้นที่ที่ผู้ซื้อและผู้ขายสามารถมาบริหารสิ่งต่างๆ ที่เกี่ยวข้องกับธุรกิจของพวกเขา
 
+## วิธีการใช้งาน
+- **Clone โปรเจกต์:** ให้ clone โปรเจกต์ MarketConnect ไปยังเครื่องคอมพิวเตอร์ของคุณ
+
+  ````
+  git clone https://github.com/CprE-KMUTNB/MarketConnect_byPatchara.git
+  ````
+  
+- **ติดตั้ง Dependencies:** ติดตั้ง dependencies ที่จำเป็นต้องใช้
+  ````
+  cd MarketConnect
+  npm install
+  ````
+- **กำหนดค่า Environment Variables:** สร้างไฟล์ .env และกำหนดค่า environment variables ที่จำเป็น
+- **รันโปรแกรม:** รันโปรแกรม MarketConnect บนเซิร์ฟเวอร์ของคุณ
+  ````
+  npm start
+  ````
+  - เข้าถึง MarketConnect: เข้าถึง MarketConnect ผ่านเว็บบราวเซอร์ของคุณที่ http://localhost:3000
+  
 ---
 
 **MarketConnect** ทำให้การทำธุรกรรมการค้าขายออนไลน์เป็นเรื่องที่สะดวกและมีประสิทธิภาพ ขอให้คุณเพลิดเพลินกับการใช้งานและพัฒนาโปรเจกต์นี้ !
